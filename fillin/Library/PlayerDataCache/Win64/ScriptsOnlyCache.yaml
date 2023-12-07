@@ -1,6 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - GameManager
     - TitleScript
     Unity.InputSystem.dll:
     - UnityEngine.InputSystem.InputSettings
@@ -23,10 +24,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -157,6 +156,31 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
+    Assets/Scenes/SelectScene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
     Assets/Scenes/TitleScene.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -212,6 +236,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 6136}
     - Class: 114
       Script: {instanceID: 6484}
+    - Class: 114
+      Script: {instanceID: 8484}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1484,10 +1510,17 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GameManager
   platform: 19
   scenePathNames:
   - Assets/Scenes/TitleScene.unity
   - Assets/Scenes/TsukumiScene.unity
   - Assets/Scenes/RuneScene.unity
   - Assets/Scenes/GameScene.unity
+  - Assets/Scenes/SelectScene.unity
   playerPath: "C:/Users/81804/OneDrive/\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7/build/fillin.exe"
