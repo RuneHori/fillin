@@ -22,9 +22,21 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
+<<<<<<< HEAD
 53841
 Successfully changed project path to: /Users/watanabetsukimi/Downloads/fillin/fillin
 /Users/watanabetsukimi/Downloads/fillin/fillin
+=======
+<<<<<<< HEAD
+60215
+Successfully changed project path to: C:/Users/81804/OneDrive/デスクトップ/fillin/fillin
+C:/Users/81804/OneDrive/デスクトップ/fillin/fillin
+=======
+52351
+Successfully changed project path to: /Users/watanabetsukimi/Downloads/fillin/fillin
+/Users/watanabetsukimi/Downloads/fillin/fillin
+>>>>>>> parent of 99f64e8 (BOOKボタン、サイコロボタンを追加)
+>>>>>>> rune
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -54,11 +66,27 @@ Successfully changed project path to: /Users/watanabetsukimi/Downloads/fillin/fi
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< HEAD
 Player connection [140704476431936] Host "[IP] 10.206.120.177 [Port] 0 [Flags] 2 [Guid] 3022585424 [EditorId] 3022585424 [Version] 1048832 [Id] OSXEditor(0,watanabetsukiminoMacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+=======
+<<<<<<< HEAD
+Player connection [28664] Host "[IP] 192.168.150.85 [Port] 0 [Flags] 2 [Guid] 4159417779 [EditorId] 4159417779 [Version] 1048832 [Id] WindowsEditor(7,�ق���) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+>>>>>>> rune
 
 Player connection [140704476431936] Host "[IP] 10.206.120.177 [Port] 0 [Flags] 2 [Guid] 3022585424 [EditorId] 3022585424 [Version] 1048832 [Id] OSXEditor(0,watanabetsukiminoMacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 6.46 ms, found 2 plugins.
+=======
+Refreshing native plugins compatible for Editor in 5.06 ms, found 3 plugins.
+=======
+Player connection [140704348108352] Host "[IP] 192.168.68.196 [Port] 0 [Flags] 2 [Guid] 1892020298 [EditorId] 1892020298 [Version] 1048832 [Id] OSXEditor(0,watanabetsukiminoMacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [140704348108352] Host "[IP] 192.168.68.196 [Port] 0 [Flags] 2 [Guid] 1892020298 [EditorId] 1892020298 [Version] 1048832 [Id] OSXEditor(0,watanabetsukiminoMacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 11.42 ms, found 2 plugins.
+>>>>>>> parent of 99f64e8 (BOOKボタン、サイコロボタンを追加)
+>>>>>>> rune
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.2.9f1 (1cc571a6ec95)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
@@ -70,10 +98,18 @@ Metal devices available: 1
 Using device Intel(R) Iris(TM) Plus Graphics (low power)
 Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics
 Initialize mono
+<<<<<<< HEAD
 Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56652
+=======
+<<<<<<< HEAD
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56500
+>>>>>>> rune
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
@@ -83,15 +119,42 @@ Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  0.600 seconds
 Domain Reload Profiling:
+<<<<<<< HEAD
 	ReloadAssembly (369ms)
 		BeginReloadAssembly (159ms)
+=======
+	ReloadAssembly (140ms)
+		BeginReloadAssembly (64ms)
+=======
+Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56394
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.010524 seconds.
+- Loaded All Assemblies, in  1.005 seconds
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.815 seconds
+Domain Reload Profiling:
+	ReloadAssembly (577ms)
+		BeginReloadAssembly (289ms)
+>>>>>>> parent of 99f64e8 (BOOKボタン、サイコロボタンを追加)
+>>>>>>> rune
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
+			CreateAndSetChildDomain (2ms)
 		LoadAllAssembliesAndSetupDomain (0ms)
+<<<<<<< HEAD
 			LoadAssemblies (157ms)
+=======
+<<<<<<< HEAD
+			LoadAssemblies (63ms)
+>>>>>>> rune
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (308ms)
 				TypeCache.Initialize (306ms)
@@ -105,9 +168,34 @@ Domain Reload Profiling:
 				InitializePlatformSupportModulesInManaged (17ms)
 				SetLoadedEditorAssemblies (18ms)
 				RefreshPlugins (0ms)
+<<<<<<< HEAD
 				BeforeProcessingInitializeOnLoad (2ms)
 				ProcessInitializeOnLoadAttributes (320ms)
 				ProcessInitializeOnLoadMethodAttributes (105ms)
+=======
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (118ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+=======
+			LoadAssemblies (289ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (419ms)
+				TypeCache.Initialize (416ms)
+					TypeCache.ScanAssembly (412ms)
+				ResolveRequiredComponents (2ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (618ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (28ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (429ms)
+				ProcessInitializeOnLoadMethodAttributes (139ms)
+>>>>>>> parent of 99f64e8 (BOOKボタン、サイコロボタンを追加)
+>>>>>>> rune
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -115,11 +203,20 @@ Domain Reload Profiling:
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
+<<<<<<< HEAD
 Symbol file LoadedFromMemory doesn't match image /Users/watanabetsukimi/Downloads/fillin/fillin/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/watanabetsukimi/Downloads/fillin/fillin/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 - Loaded All Assemblies, in  1.610 seconds
 Refreshing native plugins compatible for Editor in 3.62 ms, found 2 plugins.
 Native extension for OSXStandalone target not found
+=======
+<<<<<<< HEAD
+Symbol file LoadedFromMemory doesn't match image C:\Users\81804\OneDrive\デスクトップ\fillin\fillin\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\81804\OneDrive\デスクトップ\fillin\fillin\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.611 seconds
+Refreshing native plugins compatible for Editor in 2.17 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+>>>>>>> rune
 Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  1.199 seconds
 Domain Reload Profiling:
@@ -156,10 +253,64 @@ Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnitySh
 Launched and connected shader compiler UnityShaderCompiler after 0.13 seconds
 Refreshing native plugins compatible for Editor in 3.15 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+<<<<<<< HEAD
 Unloading 3110 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 31 unused Assets / (50.4 KB). Loaded Objects now: 3575.
 Memory consumption went from 488.4 MB to 488.4 MB.
 Total: 6.259941 ms (FindLiveObjects: 0.522842 ms CreateObjectMapping: 0.621741 ms MarkObjects: 4.938097 ms  DeleteObjects: 0.174819 ms)
+=======
+Unloading 3456 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (67.0 KB). Loaded Objects now: 3922.
+Memory consumption went from 0.52 GB to 0.52 GB.
+Total: 4.302300 ms (FindLiveObjects: 0.235300 ms CreateObjectMapping: 0.094400 ms MarkObjects: 3.851200 ms  DeleteObjects: 0.120300 ms)
+=======
+Symbol file LoadedFromMemory doesn't match image /Users/watanabetsukimi/Downloads/fillin/fillin/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/watanabetsukimi/Downloads/fillin/fillin/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.621 seconds
+Refreshing native plugins compatible for Editor in 2.20 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.027 seconds
+Domain Reload Profiling:
+	ReloadAssembly (474ms)
+		BeginReloadAssembly (283ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (17ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (61ms)
+		LoadAllAssembliesAndSetupDomain (1146ms)
+			LoadAssemblies (567ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (693ms)
+				TypeCache.Initialize (655ms)
+					TypeCache.ScanAssembly (648ms)
+				ResolveRequiredComponents (9ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (731ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (576ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.12 seconds
+Refreshing native plugins compatible for Editor in 2.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3110 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (50.8 KB). Loaded Objects now: 3574.
+Memory consumption went from 488.5 MB to 488.4 MB.
+Total: 6.075405 ms (FindLiveObjects: 0.355951 ms CreateObjectMapping: 0.227759 ms MarkObjects: 5.232220 ms  DeleteObjects: 0.252689 ms)
+>>>>>>> parent of 99f64e8 (BOOKボタン、サイコロボタンを追加)
+>>>>>>> rune
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -172,3 +323,11 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 390247.444065 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(bd0a4915b3fead24ba3960b1e5325928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(bd0a4915b3fead24ba3960b1e5325928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d7120fcc16518eeb7edbcefbaa17eb8') in 0.003079 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
